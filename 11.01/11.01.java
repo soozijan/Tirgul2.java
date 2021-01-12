@@ -171,4 +171,20 @@
             System.out.println(fact);
             System.out.println();
         }
+
+
+         //Targil 5:
+        //Targil 5:
+        System.out.println("please enter a length");
+        int length0 = scanner.nextInt();
+        System.out.println("please enter a width");
+        int width0 = scanner.nextInt();
+        for (int i5 = 0; i5 < length0; i5++){
+            for (int i5_a =0; i5_a < width0; i5_a++){
+                System.out.print(" * ");
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+         
         
