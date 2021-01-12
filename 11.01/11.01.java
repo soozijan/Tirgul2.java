@@ -161,4 +161,14 @@
             System.out.println ();
         }
 
+
+        //Targil 4:
+        for (int index = 2; index <= 10; index++) {
+            int fact = index;
+            for (int indexb = 2; indexb <= index - 1; indexb++) {
+                fact *= indexb;
+            }
+            System.out.println(fact);
+            System.out.println();
+        }
         
