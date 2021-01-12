@@ -108,6 +108,34 @@
         System.out.println("Enter a word:");
         String word = scanner.nextLine();
         System.out.println(String.format("size of '%s' is %d", word, word.length()));
+        }
+        
+
+         //Targil 16:
+        String hello = "hello world!";
+        int len = hello.length();
+        String[] words = {"Hello", "world", "java", "", "tonight", "tomorrow"};
+        int counter = 0;
+        for (int index = 0; index < words.length; index++) {
+            int length_of_word = words[index].length();
+            counter += length_of_word;
+        }
+        System.out.println(String.format("Sum of characters: %d", counter));
+
+
+        //Targil 18:
+        int[] arr = {9, 100, -10000, 49564, 123, 1};
+        int max = arr[0];
+        int min = arr[0];
+        for (int index = 1; index < arr.length; index++) {
+            if (arr[index] > max) {
+                max = arr[index];
+            }
+            if (arr[index] < min) {
+                min = arr[index];
+            }
+        }
+        System.out.println(String.format("Maximum is %d", max));
+        System.out.println(String.format("Minimum is %d", min));
     }
 
-    
