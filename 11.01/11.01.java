@@ -137,5 +137,28 @@
         }
         System.out.println(String.format("Maximum is %d", max));
         System.out.println(String.format("Minimum is %d", min));
-    }
+        }
 
+
+        //Targil 1: (loola mekunenet)
+          for (int index = 0; index < 5; index++) {
+            for (int numbers = 1; numbers <= 10; numbers++)
+                System.out.println (numbers);
+            System.out.println (" ");
+        }
+        System.out.println ();
+        }
+
+         
+        //Targil 2:
+         
+        String[] arr_week = {"Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday",};
+        for (int index1 = 0; index1 < 4; index1++)    {
+              for (int index2 = 0; index2 < arr_week.length; index2++ )     {
+                  System.out.println (arr_week[index2]);
+                  System.out.println (" ");
+              }
+            System.out.println ();
+        }
+
+        
