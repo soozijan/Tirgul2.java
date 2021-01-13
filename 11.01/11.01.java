@@ -186,5 +186,16 @@
             }
             System.out.println();
         }
+
+
+        //Targil 3:
+            for (int i3 = 1; i3 <= 10; i3++ ){
+            int or100 = 1;
+            for (int or = 1; or <= 5; or++ ){
+                or100 *= i3;
+                System.out.println(String.format("%d^%d=%d",i3,or,or100 ));
+            }
+            System.out.println();
+        }
          
         
