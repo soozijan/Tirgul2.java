@@ -189,13 +189,22 @@
 
 
         //Targil 3:
-            for (int i3 = 1; i3 <= 10; i3++ ){
-            int or100 = 1;
-            for (int or = 1; or <= 5; or++ ){
-                or100 *= i3;
-                System.out.println(String.format("%d^%d=%d",i3,or,or100 ));
+           
+         // base ^ power
+        // base * base * base ... power times
+        // 2 ^ 5
+        int result = 2;
+        for (int index = 2; index <= 5; index++) {
+               result *= 2;
+        }
+        System.out.println(result);
+
+        for (int base = 1 ; base <= 10; base++) { // 1..10
+            for(int power = 1; power <= 5; power++) { // 1..5
+                //System.out.println(String.format("%d ^ %d = %f", base, power,
+                  //      Math.pow(base, power)));
+                PrintPower(base, power);
             }
-            System.out.println();
         }
          
         
